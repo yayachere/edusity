@@ -1,0 +1,66 @@
+.contact {
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px auto;
+}
+.contact-col {
+    flex-basis: 48%;
+}
+.contact-col h3 {
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contact-col h3 img {
+    width: 52px;
+    padding-left: 8px;
+}
+.contact-col p {
+    font-size: 16px;
+    list-style: 1.4;
+    margin-bottom: 20px;
+}
+.contact li {
+    list-style: none;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.contact li img {
+    width: 32px;
+}
+.contact .contact-col form textarea, .contact .contact-col form input{
+    display: block;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    width: 90%;
+    background-color: rgba(96, 131, 214, 0.595);
+    resize: none;
+    font-size: 18px;
+}
+.contact .contact-col form textarea::placeholder,
+ .contact .contact-col form input::placeholder {
+    color: #fff;
+}
+.contact .contact-col form input {
+    height: 48px;
+}
+.contact-col .response {
+    margin: 18px 0;
+}
+/* responsive */
+@media (max-width: 800px) {
+    .contact {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .contact-col {
+        width: 100%;
+    }
+}

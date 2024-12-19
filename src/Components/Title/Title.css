@@ -1,0 +1,12 @@
+.title {
+    font-size: 16px;
+    color: #1a351e;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 500;
+}
+.title h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #14551d;
+}

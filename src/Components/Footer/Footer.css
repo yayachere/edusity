@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     border-top: 1px solid #ddd;
+     margin: 8px 0;
+     padding: 20px 0;
+}
+.footer ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 16px;
+}
+/* responsive */
+@media (max-width: 661px) {
+    .footer {
+        flex-direction: column;
+    }
+}

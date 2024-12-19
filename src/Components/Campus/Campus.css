@@ -1,0 +1,36 @@
+.campus {
+    width: 90%;
+    margin: 80px 0;
+    text-align: center;
+}
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.gallery img {
+    width: 23%;
+    border-radius: 8px;
+}
+.btn.dark-btn {
+    background-color: rgb(7, 7, 94);
+    color: #fff;
+}
+/* responsive */
+@media (max-width: 800px) {
+    .gallery {
+        flex-wrap: wrap;
+    }
+    .gallery img {
+        width: 48%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 661px) {
+    .gallery img {
+        width: 98%;
+        margin: 10px;
+    }
+}
